@@ -1,0 +1,54 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.profile img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.intro {
+  max-width: 600px;
+}
+
+.works {
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+}
