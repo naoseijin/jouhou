@@ -1,7 +1,7 @@
-/* 製図基礎紹介セクション（薄い青枠） */
+/* 製図基礎紹介セクション（青緑系の枠） */
 .works {
-  background-color: #e8f4fc;
-  border: 2px solid #b3d9f5;
+  background-color: #eef9fa;
+  border: 2px solid #5b9ea5;
   padding: 2rem;
   margin: 2rem;
   border-radius: 10px;
@@ -12,7 +12,7 @@
 .works .gallery p {
   background-color: #ffffff;
   padding: 1.5rem;
-  border-left: 5px solid #3399cc;
+  border-left: 5px solid #347b84;
   border-radius: 6px;
   font-size: 1rem;
   line-height: 1.7;
@@ -29,50 +29,23 @@
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* 箇条書きのスタイル */
-.works ul {
-  background: #fff;
-  border-left: 5px solid #3399cc;
-  border-radius: 6px;
-  padding: 1.5rem 2rem;
-  margin: 1rem 0;
-  font-size: 1rem;
-  line-height: 1.7;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-/* 雲風の装飾（学校名とコース名） */
-header h1,
-header h2 {
-  background: #e0f7ff;
-  display: inline-block;
-  padding: 20px 40px;
-  border-radius: 50px;
-  box-shadow:
-    0 8px 15px rgba(0, 0, 0, 0.1),
-    inset 10px 10px 15px rgba(255, 255, 255, 0.6),
-    inset -10px -10px 15px rgba(255, 255, 255, 0.6);
-  color: #004080;
-  text-shadow: none;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-/* サイズ調整 */
+/* 見出し装飾（学校名・コース名） */
 header h1 {
-  font-size: 2.5rem;
+  color: #1a4f5d;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
 }
 
 header h2 {
-  font-size: 1.8rem;
-  background: #e6faff;
-  padding: 15px 30px;
+  color: #24787a;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  font-weight: 600;
 }
 
-/* 「最後に」セクションの強調 */
+/* 「最後に」セクションの強調（黄緑系グラデーション） */
 .message {
-  background: linear-gradient(to right, #d9fdd3, #c3f7bc);
-  border: 3px solid #60c460;
+  background: linear-gradient(to right, #ecf7e6, #d8f0c1);
+  border: 3px solid #a6cf57;
   padding: 2.5rem;
   margin: 2rem;
   border-radius: 12px;
@@ -80,10 +53,10 @@ header h2 {
 }
 
 .message h2 {
-  color: #1b5e20;
+  color: #466d1d;
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  border-bottom: 3px solid #4caf50;
+  border-bottom: 3px solid #84aa32;
   display: inline-block;
   padding-bottom: 0.3rem;
 }
@@ -91,7 +64,7 @@ header h2 {
 .message p {
   font-size: 1.2rem;
   line-height: 1.8;
-  color: #2e7d32;
+  color: #2d572c;
 }
 
 /* レスポンシブデザイン：スマホ向け */
@@ -116,8 +89,7 @@ header h2 {
     margin: 1rem;
   }
 
-  .works .gallery p,
-  .works ul {
+  .works .gallery p {
     font-size: 0.95rem;
     padding: 1rem;
   }
@@ -143,4 +115,27 @@ header h2 {
     text-align: center;
     line-height: 1.6;
   }
+}
+
+/* 雲風の装飾（背景：青緑〜グレイッシュブルー） */
+header h1,
+header h2 {
+  background: #e2f1f3;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 50px;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.1),
+    10px 10px 0 rgba(255, 255, 255, 0.7) inset,
+    -10px -10px 0 rgba(255, 255, 255, 0.7) inset;
+  color: #1a4f5d;
+  text-shadow: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+header h2 {
+  font-size: 1.8rem;
+  background: #eaf7f9;
+  padding: 15px 30px;
 }
