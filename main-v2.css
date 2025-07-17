@@ -29,20 +29,47 @@
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* 見出し装飾（学校名・コース名） */
-header h1 {
+/* 箇条書きのスタイル */
+.works ul {
+  background: #fff;
+  border-left: 5px solid #3399cc;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* 雲風の装飾（学校名とコース名） */
+header h1,
+header h2 {
+  background: #e0f7ff;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 50px;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.1),
+    inset 10px 10px 15px rgba(255, 255, 255, 0.6),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.6);
   color: #004080;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
   font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* サイズ調整 */
+header h1 {
+  font-size: 2.5rem;
 }
 
 header h2 {
-  color: #0059b3;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
-  font-weight: 600;
+  font-size: 1.8rem;
+  background: #e6faff;
+  padding: 15px 30px;
 }
 
-/* 「最後に」セクションの強調（明るいグリーングラデーション） */
+/* 「最後に」セクションの強調 */
 .message {
   background: linear-gradient(to right, #d9fdd3, #c3f7bc);
   border: 3px solid #60c460;
@@ -66,6 +93,7 @@ header h2 {
   line-height: 1.8;
   color: #2e7d32;
 }
+
 /* レスポンシブデザイン：スマホ向け */
 @media screen and (max-width: 600px) {
   body {
@@ -88,7 +116,8 @@ header h2 {
     margin: 1rem;
   }
 
-  .works .gallery p {
+  .works .gallery p,
+  .works ul {
     font-size: 0.95rem;
     padding: 1rem;
   }
@@ -114,31 +143,4 @@ header h2 {
     text-align: center;
     line-height: 1.6;
   }
-}
-/* 雲風の装飾（学校名とコース名） */
-header h1,
-header h2 {
-  background: #e0f7ff;
-  display: inline-block;
-  padding: 20px 40px;
-  border-radius: 50px;
-  box-shadow:
-    0 8px 15px rgba(0, 0, 0, 0.1),
-    10px 10px 0 rgba(255, 255, 255, 0.7) inset,
-    -10px -10px 0 rgba(255, 255, 255, 0.7) inset;
-  color: #004080;
-  text-shadow: none;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-/* サイズ調整 */
-header h1 {
-  font-size: 2.5rem;
-}
-
-header h2 {
-  font-size: 1.8rem;
-  background: #e6faff;
-  padding: 15px 30px;
 }
