@@ -1,37 +1,45 @@
-/* 製図基礎紹介セクション（薄い青枠） */
+/* 全体の背景を薄い黄色に */
+body {
+  background-color: #fffce6; /* 薄い黄色 */
+  font-family: "ヒラギノ角ゴ ProN", "メイリオ", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 製図基礎紹介セクション（濃い青で目立たせる） */
 .works {
-  background-color: #e8f4fc; /* 薄い青 */
-  border: 2px solid #b3d9f5;
+  background-color: #e6f2ff; /* 薄い青背景 */
+  border: 3px solid #005bbb; /* 濃い青枠 */
   padding: 2rem;
   margin: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* 製図の画像サイズを少し小さくする */
-.works .gallery img {
-  width: 100%;
-  max-width: 300px;
-  display: block;
-  margin-top: 1rem;
-  border-radius: 8px;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* 製図の紹介文に装飾を追加 */
+/* 文章ブロックの装飾（見やすく） */
 .works .gallery p {
   background-color: #ffffff;
-  padding: 1rem 1.5rem;
-  border-left: 5px solid #3399cc;
+  padding: 1.5rem;
+  border-left: 6px solid #005bbb;
   border-radius: 6px;
   font-size: 1rem;
-  line-height: 1.7;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  line-height: 1.8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* 最後にセクション（薄い緑色背景） */
+/* 製図の画像スタイル */
+.works .gallery img {
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin: 2rem auto 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 最後にセクション（薄い緑） */
 .message {
-  background-color: #e7fce7; /* 薄い緑 */
+  background-color: #e7fce7;
   padding: 2rem;
   margin: 2rem;
   border: 2px solid #b8e6b8;
