@@ -1,4 +1,27 @@
-/* 全体の背景を薄い黄色に */
+body {
+  background-color: #fffbe0; /* 背景を薄い黄色に */
+}
+
+/* 雲風デザイン */
+.course-title h1 {
+  background: #e0f7ff; /* 雲のような薄い水色 */
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 50px;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.1),
+    10px 10px 0 rgba(255, 255, 255, 0.7) inset,
+    -10px -10px 0 rgba(255, 255, 255, 0.7) inset;
+  font-size: 2em;
+  text-align: center;
+  margin: 40px auto;
+  color: #333;
+}
+
+/* セクションの中央寄せ */
+.course-title {
+  text-align: center;
+}/* 全体の背景を薄い黄色に */
 body {
   background-color: #fffce6; /* 薄い黄色 */
   font-family: "ヒラギノ角ゴ ProN", "メイリオ", sans-serif;
