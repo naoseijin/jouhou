@@ -1,36 +1,49 @@
-/* 見出し全体のセクション中央寄せ */
-.course-title {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+/* 製図基礎紹介セクション（薄い青枠） */
+.works {
+  background-color: #e8f4fc;
+  border: 2px solid #b3d9f5;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
 
-/* 学校名（h1）とコース名（h2）の濃い赤スタイル */
-.course-title h1,
-.course-title h2 {
-  color: #b22222; /* 濃い赤（ファイヤーブリック） */
-  margin: 0.5em 0;
+/* 文章を見やすく装飾 */
+.works .gallery p {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-left: 5px solid #3399cc;
+  border-radius: 6px;
+  font-size: 1rem;
+  line-height: 1.7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-/* 雲風デザイン（学校名用） */
-.course-title h1 {
-  background: #ffeaea; /* 赤みがかった柔らかい背景 */
-  display: inline-block;
-  padding: 20px 40px;
-  border-radius: 50px;
-  box-shadow:
-    0 8px 15px rgba(0, 0, 0, 0.1),
-    10px 10px 0 rgba(255, 255, 255, 0.7) inset,
-    -10px -10px 0 rgba(255, 255, 255, 0.7) inset;
-  font-size: 2.5em;
+/* 製図画像のサイズ調整と装飾 */
+.works .gallery img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 1.5rem auto 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* コース名（h2）にも少し装飾 */
-.course-title h2 {
-  font-size: 2em;
-  background: #fff5f5;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 40px;
-  box-shadow: 0 4px 8px rgba(178, 34, 34, 0.1);
+/* 最後にのセクション（薄い緑背景） */
+.message {
+  background-color: #e7fce7;
+  padding: 2rem;
+  margin: 2rem;
+  border: 2px solid #b8e6b8;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.message h2 {
+  color: #2e7d32;
+}
+
+.message p {
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
