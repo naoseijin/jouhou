@@ -115,3 +115,30 @@ header h2 {
     line-height: 1.6;
   }
 }
+/* 雲風の装飾（学校名とコース名） */
+header h1,
+header h2 {
+  background: #e0f7ff;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 50px;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.1),
+    10px 10px 0 rgba(255, 255, 255, 0.7) inset,
+    -10px -10px 0 rgba(255, 255, 255, 0.7) inset;
+  color: #004080;
+  text-shadow: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* サイズ調整 */
+header h1 {
+  font-size: 2.5rem;
+}
+
+header h2 {
+  font-size: 1.8rem;
+  background: #e6faff;
+  padding: 15px 30px;
+}
