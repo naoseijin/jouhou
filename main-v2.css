@@ -29,24 +29,6 @@
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* 最後にのセクション（薄い緑背景） */
-.message {
-  background-color: #e7fce7;
-  padding: 2rem;
-  margin: 2rem;
-  border: 2px solid #b8e6b8;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-}
-
-.message h2 {
-  color: #2e7d32;
-}
-
-.message p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-}
 /* 見出し装飾（学校名・コース名） */
 header h1 {
   color: #004080;
@@ -60,7 +42,7 @@ header h2 {
   font-weight: 600;
 }
 
-/* 「最後に」セクションの強調 */
+/* 「最後に」セクションの強調（明るいグリーングラデーション） */
 .message {
   background: linear-gradient(to right, #d9fdd3, #c3f7bc);
   border: 3px solid #60c460;
