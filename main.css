@@ -1,10 +1,20 @@
-body {
-  background-color: #fffbe0; /* 背景を薄い黄色に */
+/* 見出し全体のセクション中央寄せ */
+.course-title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
-/* 雲風デザイン */
+/* 学校名（h1）とコース名（h2）の濃い赤スタイル */
+.course-title h1,
+.course-title h2 {
+  color: #b22222; /* 濃い赤（ファイヤーブリック） */
+  margin: 0.5em 0;
+}
+
+/* 雲風デザイン（学校名用） */
 .course-title h1 {
-  background: #e0f7ff; /* 雲のような薄い水色 */
+  background: #ffeaea; /* 赤みがかった柔らかい背景 */
   display: inline-block;
   padding: 20px 40px;
   border-radius: 50px;
@@ -12,69 +22,15 @@ body {
     0 8px 15px rgba(0, 0, 0, 0.1),
     10px 10px 0 rgba(255, 255, 255, 0.7) inset,
     -10px -10px 0 rgba(255, 255, 255, 0.7) inset;
+  font-size: 2.5em;
+}
+
+/* コース名（h2）にも少し装飾 */
+.course-title h2 {
   font-size: 2em;
-  text-align: center;
-  margin: 40px auto;
-  color: #333;
-}
-
-/* セクションの中央寄せ */
-.course-title {
-  text-align: center;
-}/* 全体の背景を薄い黄色に */
-body {
-  background-color: #fffce6; /* 薄い黄色 */
-  font-family: "ヒラギノ角ゴ ProN", "メイリオ", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* 製図基礎紹介セクション（濃い青で目立たせる） */
-.works {
-  background-color: #e6f2ff; /* 薄い青背景 */
-  border: 3px solid #005bbb; /* 濃い青枠 */
-  padding: 2rem;
-  margin: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* 文章ブロックの装飾（見やすく） */
-.works .gallery p {
-  background-color: #ffffff;
-  padding: 1.5rem;
-  border-left: 6px solid #005bbb;
-  border-radius: 6px;
-  font-size: 1rem;
-  line-height: 1.8;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-/* 製図の画像スタイル */
-.works .gallery img {
-  width: 100%;
-  max-width: 320px;
-  display: block;
-  margin: 2rem auto 0;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* 最後にセクション（薄い緑） */
-.message {
-  background-color: #e7fce7;
-  padding: 2rem;
-  margin: 2rem;
-  border: 2px solid #b8e6b8;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-}
-
-.message h2 {
-  color: #2e7d32;
-}
-
-.message p {
-  font-size: 1.1rem;
-  line-height: 1.7;
+  background: #fff5f5;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(178, 34, 34, 0.1);
 }
